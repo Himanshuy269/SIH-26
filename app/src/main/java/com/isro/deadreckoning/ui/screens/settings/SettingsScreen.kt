@@ -73,7 +73,7 @@ fun SettingsScreen(
         ) {
             Column {
                 Text(
-                    text = "SIH 2024 / ISRO",
+                    text = "ISRO",
                     style = MaterialTheme.typography.labelSmall.copy(
                         color = IsroOrange,
                         fontWeight = FontWeight.Bold,
@@ -187,38 +187,38 @@ fun SettingsScreen(
         Spacer(modifier = Modifier.height(14.dp))
 
         // 4. Clean Architecture Layers Card
-        InfoCard(
-            title = "Clean Architecture Layers",
-            icon = Icons.Default.Layers,
-            iconColor = IsroOrange
-        ) {
-            ArchitectureFlowRow(
-                label = "UI Layer",
-                value = "Jetpack Compose (Screens + Components)",
-                color = NavicBlue
-            )
-            ArchitectureFlowRow(
-                label = "ViewModel",
-                value = "StateFlow + conflate() for smooth 10Hz updates",
-                color = StatusCyan
-            )
-            ArchitectureFlowRow(
-                label = "Repository",
-                value = "NavigationRepository (orchestrates Engine + Sensors)",
-                color = StatusGreen
-            )
-            ArchitectureFlowRow(
-                label = "Engine Interface",
-                value = "NavigationEngine → MockNavigationEngine | RealEngine (Future)",
-                color = IsroOrange
-            )
-            ArchitectureFlowRow(
-                label = "AI / INS / Sensors",
-                value = "Pluggable: TFLite / EKF / SensorManager / LocationProvider",
-                color = StatusPurple,
-                isLast = true
-            )
-        }
+//        InfoCard(
+//            title = "Clean Architecture Layers",
+//            icon = Icons.Default.Layers,
+//            iconColor = IsroOrange
+//        ) {
+//            ArchitectureFlowRow(
+//                label = "UI Layer",
+//                value = "Jetpack Compose (Screens + Components)",
+//                color = NavicBlue
+//            )
+//            ArchitectureFlowRow(
+//                label = "ViewModel",
+//                value = "StateFlow + conflate() for smooth 10Hz updates",
+//                color = StatusCyan
+//            )
+//            ArchitectureFlowRow(
+//                label = "Repository",
+//                value = "NavigationRepository (orchestrates Engine + Sensors)",
+//                color = StatusGreen
+//            )
+//            ArchitectureFlowRow(
+//                label = "Engine Interface",
+//                value = "NavigationEngine → MockNavigationEngine | RealEngine (Future)",
+//                color = IsroOrange
+//            )
+//            ArchitectureFlowRow(
+//                label = "AI / INS / Sensors",
+//                value = "Pluggable: TFLite / EKF / SensorManager / LocationProvider",
+//                color = StatusPurple,
+//                isLast = true
+//            )
+//        }
 
         Spacer(modifier = Modifier.height(16.dp))
     }
