@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DeadReckoningNavigation" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/isro_bg_dark</item>
+        <item name="android:navigationBarColor">@color/isro_bg_dark</item>
+    </style>
+</resources>

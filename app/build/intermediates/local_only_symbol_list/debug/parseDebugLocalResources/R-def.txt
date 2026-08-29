@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+color isro_accent
+color isro_bg_dark
+color isro_blue
+color isro_orange
+string app_name
+string nav_home
+string nav_sensors
+string nav_settings
+style Theme.DeadReckoningNavigation

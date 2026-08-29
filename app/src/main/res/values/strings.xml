@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ISRO Intelligent Dead Reckoning</string>
+    <string name="nav_home">Navigation HUD</string>
+    <string name="nav_sensors">Sensor Debug</string>
+    <string name="nav_settings">Settings &amp; Info</string>
+</resources>
